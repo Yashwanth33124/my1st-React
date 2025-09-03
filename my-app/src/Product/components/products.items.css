@@ -1,0 +1,12 @@
+.buttonstyle{
+    background-color: black;
+    font-weight: boilder;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+.products-styles{
+    color: brown;
+    font-size: 20px;
+}
