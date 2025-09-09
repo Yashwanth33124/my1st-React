@@ -1,6 +1,9 @@
 import React from "react";
-import Products from "./Product"; 
-import User from "./Product/components/user";
+// import Products from "./Product"; 
+// import User from "./Product/components/user";
+// import Button from "./context-concept/button";
+// import Text from "./context-concept/text";
+import Reducer from "./Product/components/use-reducer-example";
 let dummyProductuctitems = ["Product 1","Product 2","Product 3"]
 
 function App() {
@@ -8,7 +11,12 @@ function App() {
     <div>
       <h1>Welcome to the Ecommerce Project</h1>
       {/* <Products  listofproducts = {dummyProductuctitems} name = "nani" city = "Suryapet"/> */}
-      <User/>
+      {/* <User/> */}
+      {/* <Button/>
+      <Text/> */}
+
+      <Reducer/>
+      
     </div>
   );
 }
