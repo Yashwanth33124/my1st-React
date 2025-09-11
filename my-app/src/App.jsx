@@ -4,6 +4,7 @@ import React from "react";
 // import Button from "./context-concept/button";
 // import Text from "./context-concept/text";
 import Reducer from "./Product/components/use-reducer-example";
+import FormComponent from "./Product/components/form";
 let dummyProductuctitems = ["Product 1","Product 2","Product 3"]
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
       {/* <Button/>
       <Text/> */}
 
-      <Reducer/>
-      
+      {/* <Reducer/> */}
+      <FormComponent/>
     </div>
   );
 }
