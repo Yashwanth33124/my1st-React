@@ -5,6 +5,8 @@ import React from "react";
 // import Text from "./context-concept/text";
 import Reducer from "./Product/components/use-reducer-example";
 import FormComponent from "./Product/components/form";
+import Registerform from "./Product/components/register";
+import Loginform from "./Product/components/login-form";
 let dummyProductuctitems = ["Product 1","Product 2","Product 3"]
 
 function App() {
@@ -17,7 +19,15 @@ function App() {
       <Text/> */}
 
       {/* <Reducer/> */}
-      <FormComponent/>
+      {/* <FormComponent/> */}
+
+      <div  style={{
+        display:"flex",
+        gap:"200px"
+      }}>
+        <Registerform/>
+        <Loginform/>
+      </div>
     </div>
   );
 }
